@@ -8,6 +8,7 @@
         <module>serviceprovider</module>
         <module>consumerone</module>
         <module>consumertwo</module>
+        <module>consumerthree</module>
     </modules>
     <packaging>pom</packaging>
     <name>service-example</name>
