@@ -9,6 +9,7 @@
         <module>consumerone</module>
         <module>consumertwo</module>
         <module>consumerthree</module>
+        <module>commands</module>
     </modules>
     <packaging>pom</packaging>
     <name>service-example</name>
@@ -22,6 +23,35 @@
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.compendium</artifactId>
             <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.karaf.shell</groupId>
+            <artifactId>org.apache.karaf.shell.core</artifactId>
+            <version>4.0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.blueprint</groupId>
+            <artifactId>org.apache.aries.blueprint.api</artifactId>
+            <version>1.0.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.blueprint</groupId>
+            <artifactId>org.apache.aries.blueprint.core</artifactId>
+            <version>1.7.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.blueprint</groupId>
+            <artifactId>org.apache.aries.blueprint.core.compatibility</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.proxy</groupId>
+            <artifactId>org.apache.aries.proxy.impl</artifactId>
+            <version>1.0.5</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
